@@ -1,14 +1,18 @@
-<template>
-    <div></div>
+<template >
+    <Index/>
 </template>
 
 <script>
+import Index from "@/pages/my_gallery/Index";
 
 export default {
-  name: 'App',
+    name: 'App',
+    components: {
+        Index
+    }
 }
 </script>
 
-<style>
-
+<style lang="scss" >
+    @import "scss/global";
 </style>
